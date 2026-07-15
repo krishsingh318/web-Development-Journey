@@ -22,6 +22,7 @@ JavaScript Learning/
 ### HTML Learning
 - ✅ Day 01
 - ✅ Day 02
+- ✅ Day 03
 
 ### CSS Learning
 - ⏳ Coming Soon
