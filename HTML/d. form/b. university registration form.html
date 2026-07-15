@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university registration Form</title>
+</head>
+<body>
+    <h1>University registration Form</h1>
+    <h4>please fill out the form</h4>
+    <hr>
+
+    <form>
+
+        <h2>Personal details</h2>
+
+        <label for="name">First Name</label>
+        <input type="text" name="name" id="name" placeholder="e.g. krish" required>
+        <br><br>
+
+        <label for="surname">Last Name</label>
+        <input type="text" name="surname" id="surname" placeholder="e.g. singh">
+        <br><br>
+
+        <label for="dob">Date of birth</label>
+        <input type="date" name="dob" id="dob" required>
+        <br><br>
+
+        <h3>Gender</h3>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <br><br>
+
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br><br>
+
+
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <br><br>
+
+        <h3>Upload Your photo</h3>
+
+        <input type="file">
+
+        <hr>
+
+        <h2>Contact Details</h2>
+
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" placeholder="e.g. krishsingh@gmail.com">
+        <br><br>
+
+
+        <label for="phone">phone number</label>
+        <input type="tel" name="phone" id="phone" placeholder="e.g. 841691253" required>
+        <br><br>
+
+
+        <label for="address">Mailing address</label>
+        <br><br>
+        <textarea name="address" id="address" rows="10" cols="30" placeholder="street address, city, state,pin code"></textarea>
+        <hr>
+
+        <h2>Academic Details</h2>
+
+        <label for="course">select Your course:</label>
+        <select name="course" id="course">
+           <option value="cse">cse</option>
+           <option value="Me">ME</option>
+           <option value="CIVIL">CIVIL</option>
+           <option value="electrical">electrical</option>
+           <option value="biotech">biotech</option>
+        </select>
+        
+        <br>
+
+        <h3>Extracurricular Activities</h3>
+
+        <label for="sport">Sports</label>
+        <input type="checkbox" name="interest" id="sports" value="sports">
+        <br><br>
+
+        <label for="Music & arts">Music & Arts</label>
+        <input type="checkbox" name="interest" id="music & arts" value="music & arts">
+        <br><br>
+
+        <label for="Technology"> technology</label>
+        <input type="checkbox" name="interest" id="technology" value="Technology">
+        <br><br>
+
+        <label for="voluntery">voluntery</label>
+        <input type="checkbox" name="interest" id="voluntery" value="voluntery">
+        <!--value me jyada jab use ho rha jab  input type
+        checkbox ho rha taki backend me 
+        pta kare kya select kiya hu
+        aur name us group ka hai jaise gender me option hai select karne 
+        liye to ek gender ka group ban gya 
+        aur surname ka koi group nhi hai name me surname hi rahega
+        id to jo for me rahega same vohi dal dena hai
+        for jo label rahega wohi same likh sakte short form likh for 
+        basically id ke liye use hota hai aur id backend me kya bolke 
+        save karana hai o hai
+        eg ke liye secuirty question ko id secuirty ques karke bhi 
+        kara sakta aur bachend secuirty ques ka value o dakheyega ko
+        fronted secuirty question me selecct kiye rahoge
+        aur label to fronted me dekhane ke liye hota hai-->
+        <br><br>
+
+
+        <hr>
+
+        <h2>Create Your Account</h2>
+
+        <label for="pass">Create  password</label>
+        <input type="password" name="password" id="pass" placeholder="e.g. krish@0511">
+        <br><br>
+
+        <label for="secuirty">secuirty Question</label>
+        <select name="secuirty" id="secuirty">
+           <option value="what is your pet name?">what is your pet name?</option>
+           <option value="what is your bike number?">what is your bike number?</option>
+           <option value="CIVIL">what is your first school name</option>
+           <option value="wich city is your favourite?">wich city is your favourite?</option>
+           
+        </select>
+        <br><br>
+
+        <label for="answer">seciurty</label>
+        <input type="text" name="answer" id="answer">
+        <br><br>
+
+
+        <input type="checkbox" id="myscheckbox">
+        <label for="myscheckbox"> I agree to the term and condition</label>
+        
+        <hr>
+
+        <button type="submit">register</button>
+        <button type="reset">Clear Form</button>
+
+
+
+
+
+    </form>
+</body>
+</html>
